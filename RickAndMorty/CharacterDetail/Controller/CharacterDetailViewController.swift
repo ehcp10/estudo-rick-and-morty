@@ -22,7 +22,7 @@ class CharacterDetailViewController: UIViewController {
     //MARK: - Properties
     var character: Character?
     
-    
+    //MARK: - Super methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,7 +44,7 @@ class CharacterDetailViewController: UIViewController {
 
 }
 
-
+//Extension obtida em fórum na internet
 extension UIImageView {
    func downloaded(from url: URL) {
         URLSession.shared.dataTask(with: url) { data, response, error in
